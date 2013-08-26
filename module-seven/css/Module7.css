@@ -51,9 +51,9 @@ body{
 }
 .MovieHolder img{
 	height: 90px;
-    margin: 0 auto;
-    padding: 46px 32px 32px;
-    width: 60px;
+    	margin: 0 auto;
+    	padding: 46px 32px 32px;
+    	width: 60px;
 }
 .MovieTitle{
 	font-size: 18px;
@@ -63,11 +63,11 @@ body{
 }
 .synopsis{
 	font-size: 14px;
-    height: 120px;
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: center;
-    width: 500px;
+    	height: 120px;
+	margin: 0 auto;
+    	overflow: hidden;
+    	text-align: center;
+    	width: 500px;
 }
 .year p{
 	font-size: 24px;
@@ -90,11 +90,11 @@ body{
 }
 #movie{
 	font-family: Candara;
-    font-size: 30px;
-    font-style: italic;
-    height: 35px;
-    text-align: left;
-    width: 820px;
+	font-size: 30px;
+    	font-style: italic;
+    	height: 35px;
+    	text-align: left;
+    	width: 820px;
 }
 #send{
 	margin-top: -10px;
