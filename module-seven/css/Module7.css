@@ -32,6 +32,8 @@ body{
 	margin-top: 10px;
 }
 .Thumb{
+	font-family: Candara;
+	color: White;
 	width: 140px;
 	float: left;
 	background-color: #57C6F4;
@@ -46,15 +48,6 @@ body{
 	font-family: Candara;
 	color: white;
 	border-radius: 0 15px 15px 0;
-}
-.Year{
-	width: 185px;
-	float: left;
-	height: 200px;
-	background-color: #57C6F4;
-	font-family: Candara;
-	color: white;
-	border-radius: 0 20px 20px 0;
 }
 .MovieHolder img{
 	height: 90px;
@@ -77,9 +70,7 @@ body{
     width: 500px;
 }
 .year p{
-	font-family: Candara;
 	font-size: 24px;
-	color: white;
 	padding: 74px 35px 35px;	
 }
 #result{
