@@ -62,7 +62,7 @@ $(document).ready(function(){
 				dataType: 'jsonp',
 				success: showmovies
 			});
-			function showmmovies(response){
+			function showmovies(response){
 				$('.MovieContainer').html("");
 				for(i=0;i<response.movies.length;i++){
 					var movie = response.movies[i];
