@@ -25,12 +25,12 @@ $(document).ready(function(){
 						var synop = movie.synopsis;
 						if(synop == ""){
 							synop = '<h3 style="text-align: center;">No Available Synopsis</h3>';
-							$('.MovieContainer').append('<div class="MovieHolder">'+'Year: '+movie.year+'<div class="Thumb">'+'<img src="' 
+							$('.MovieContainer').append('<div class="MovieHolder">'+'<div class="Thumb">'+'Year: '+movie.year+'<img src="' 
 							+movie.posters.thumbnail+'"/>'+'</div>'+'<div class="Title">'+'<p class="MovieTitle">' 
 							+movie.title+ '</p>'+'<div class="synopsis">'+'<p>'+synop+'</p>'+'</div>'+'</div>');
 						
 						}else{
-							$('.MovieContainer').append('<div class="MovieHolder">'+'Year: '+movie.year+'<div class="Thumb">'+'<img src="' 
+							$('.MovieContainer').append('<div class="MovieHolder">'+'<div class="Thumb">'+'Year: '+movie.year+'<img src="' 
 							+movie.posters.thumbnail+'"/>'+'</div>'+'<div class="Title">'+'<p class="MovieTitle">' 
 							+movie.title+ '</p>'+'<div class="synopsis">'+'<p>'+synop+'</p>'+'</div>'+'</div>');
 						
@@ -69,15 +69,13 @@ $(document).ready(function(){
 					var synop = movie.synopsis;
 					if(synop == ""){
 						synop = '<h3 style="text-align: center;">No Available Synopsis</h3>';
-						$('.MovieContainer').append('<div class="MovieHolder">'+'Year: '+movie.year+'<div class="Thumb">'+'<img src="' 
+						$('.MovieContainer').append('<div class="MovieHolder">'+'<div class="Thumb">'+'Year: '+movie.year+'<img src="' 
 						+movie.posters.thumbnail+'"/>'+'</div>'+'<div class="Title">'+'<p class="MovieTitle">' 
 						+movie.title+ '</p>'+'<div class="synopsis">'+'<p>'+synop+'</p>'+'</div>'+'</div>');
-						
 					}else {
-						$('.MovieContainer').append('<div class="MovieHolder">'+'Year: '+movie.year+'<div class="Thumb">'+'<img src="' 
+						$('.MovieContainer').append('<div class="MovieHolder">'+'<div class="Thumb">'+'Year: '+movie.year+'<img src="' 
 						+movie.posters.thumbnail+'"/>'+'</div>'+'<div class="Title">'+'<p class="MovieTitle">' 
 						+movie.title+ '</p>'+'<div class="synopsis">'+'<p>'+synop+'</p>'+'</div>'+'</div>');
-						
 					}
 				}
 				var movieslength = response.movies.length;
