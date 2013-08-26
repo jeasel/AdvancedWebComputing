@@ -14,7 +14,7 @@ $(document).ready(function(){
 				url: url,
 				data: {
 					q: searchmovies,
-					apiKey: 'hcrurhsttexasrgfm2y6yahm'
+					apiKey: 's4g4bxznr29fucmhs5fvjx3u'
 				},
 					dataType: 'jsonp',
 					success: showMovies
