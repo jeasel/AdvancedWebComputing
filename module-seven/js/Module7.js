@@ -27,17 +27,15 @@ $(document).ready(function(){
 					var synop = movie.synopsis;
 					if(synop == ""){
 						synop = '<h3 style="text-align: center;">No Available Synopsis</h3>';
-						$('.MovieContainer').append('<div class="MovieHolder">'+'<p>Year: '+movie.year+'</p>'+'<div class="Thumb">'+'<img src="' 
-						+movie.posters.thumbnail+'"/>'+'</div>'+'<div class="Title">'+'<p class="MovieTitle">' 
+						$('.MovieContainer').append('<div class="MovieHolder">'+'<div class="Thumb">'+'<img src="' 
+						+movie.posters.thumbnail+'"/>'+'<p>Year: '+movie.year+'</p>'+'</div>'+'<div class="Title">'+'<p class="MovieTitle">' 
 						+movie.title+ '</p>'+'<div class="synopsis">'+'<p>'+synop+'</p>'+'</div>'+'</div>');
 						
 					}else{	
 					
-					synop = '<h3 style="text-align: center;">No Available Synopsis</h3>';
-						$('.MovieContainer').append('<div class="MovieHolder">'+'<p>Year: '+movie.year+'</p>'+'<div class="Thumb">'+'<img src="' 
-						+movie.posters.thumbnail+'"/>'+'</div>'+'<div class="Title">'+'<p class="MovieTitle">' 
-						+movie.title+ '</p>'+'<div class="synopsis">'+'<p>'+synop+'</p>'+'</div>'+'</div>');
-						
+					$('.MovieContainer').append('<div class="MovieHolder">'+'<div class="Thumb">'+'<img src="' 
+					+movie.posters.thumbnail+'"/>'+'<p>Year: '+movie.year+'</p>'+'</div>'+'<div class="Title">'+'<p class="MovieTitle">' 
+					+movie.title+ '</p>'+'<div class="synopsis">'+'<p>'+synop+'</p>'+'</div>'+'</div>');
 					}
 				}
 					var moviesLength = response.movies.length;
