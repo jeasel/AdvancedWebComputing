@@ -21,7 +21,7 @@ $(document).ready(function(){
 				function showmovies(response){
 					$('.MovieContainer').html("");
 					for(i=0;i<response.movies.length;i++){
-						var movie = rsponse.movies[i];
+						var movie = response.movies[i];
 						var synop = movie.synopsis;
 						if(synop == ""){
 							synop = '<h3 style="text-align: center;">No Available Synopsis</h3>';
