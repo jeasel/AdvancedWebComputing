@@ -45,8 +45,7 @@ $(document).ready(function(){
 			}
 				
 			});
-				$( '#moviesform' ).each(function(){
-					this.reset();
+				moviesform = $ ('#movie').val("");
 				});
 			
 		});
