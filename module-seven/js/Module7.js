@@ -16,9 +16,9 @@ $(document).ready(function(){
 						apiKey: 's4g4bxznr29fucmhs5fvjx3u'
 					},
 					dataType: 'jsonp',
-					success: showmovies
+					success: showMovies
 				});
-				function showmovies(response){
+				function showMovies(response){
 					$('.MovieContainer').html("");
 					for(i=0;i<response.movies.length;i++){
 						var movie = response.movies[i];
@@ -60,9 +60,9 @@ $(document).ready(function(){
 					apiKey: 's4g4bxznr29fucmhs5fvjx3u'
 				},
 				dataType: 'jsonp',
-				success: showmovies
+				success: showMovies
 			});
-			function showmovies(response){
+			function showMovies(response){
 				$('.MovieContainer').html("");
 				for(i=0;i<response.movies.length;i++){
 					var movie = response.movies[i];
